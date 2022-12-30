@@ -223,7 +223,7 @@ $(function(){
                 context.stroke();
 
                 context.fillStyle = '#000000';
-                context.fillText(levels[i], x + 15 + (i * 120), 22);
+                context.fillText(levels[i], x + 15 + (i * 150), 22);
             }
         },
         setupCanvas: function(width, height, username){

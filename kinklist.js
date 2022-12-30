@@ -212,10 +212,10 @@ $(function(){
             context.fillStyle = '#000000';
 
             var levels = Object.keys(colors);
-            var x = context.canvas.width - 15 - (120 * levels.length);
+            var x = context.canvas.width - 15 - (150 * levels.length);
             for(var i = 0; i < levels.length; i++) {
                 context.beginPath();
-                context.arc(x + (120 * i), 17, 8, 0, 2 * Math.PI, false);
+                context.arc(x + (150 * i), 17, 8, 0, 2 * Math.PI, false);
                 context.fillStyle = colors[levels[i]];
                 context.fill();
                 context.strokeStyle = 'rgba(0, 0, 0, 0.5)'
